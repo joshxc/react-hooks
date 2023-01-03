@@ -8,7 +8,8 @@
 .container {
   display: flex;
   flex-direction: row;
-  place-items: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .container button {
