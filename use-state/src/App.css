@@ -21,4 +21,12 @@
 input {
   max-width: 25%;
   text-align: center;
+  margin-right: 1em;
+}
+
+li > button {
+  padding: 1px 7px;
+  margin-left: 3em;
+
+  background-color: red;
 }
