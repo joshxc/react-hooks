@@ -1,13 +1,12 @@
-import { useState } from 'react';
 import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <ClassCounter />
+      <HookCounter />
     </>
   );
 }
