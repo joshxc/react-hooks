@@ -1,6 +1,7 @@
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
 import ObjectState from './components/ObjectState';
+import ArrayState from './components/ArrayState';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <ClassCounter />
       <HookCounter />
       <ObjectState />
+      <ArrayState />
     </div>
   );
 }
