@@ -5,14 +5,12 @@
   text-align: center;
 }
 
-.App {
+.container {
   display: flex;
   flex-direction: row;
   place-items: center;
-  font-size: 2em;
 }
 
-.count {
-  padding: 1rem 2rem;
-  height: auto;
+.container button {
+  margin: 0 1em;
 }

@@ -4,11 +4,12 @@ function HookCounter() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="container">
+      <h4>Hook Counter: </h4>
       <button onClick={() => setCount(count - 1)}>-</button>
-      <div className="count">{count}</div>
+      <div>{count}</div>
       <button onClick={() => setCount(count + 1)}>+</button>
-    </>
+    </div>
   );
 }
 
