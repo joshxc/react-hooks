@@ -1,10 +1,10 @@
 import './App.css';
-import DataFetching from './components/DataFetching';
+import DataFetching2 from './components/DataFetching2';
 
 function App() {
   return (
     <>
-      <DataFetching />
+      <DataFetching2 />
     </>
   );
 }
