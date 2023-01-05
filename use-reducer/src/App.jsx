@@ -1,10 +1,11 @@
 import React from 'react';
+import SimpleReducerCounter from './components/SimpleReducerCounter';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      App
+    <div className="container">
+      <SimpleReducerCounter />
     </div>
   );
 }

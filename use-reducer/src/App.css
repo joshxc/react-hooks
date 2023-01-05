@@ -4,3 +4,17 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid antiquewhite;
+  padding: 2em;
+  margin: 2em;
+}
+
+.container button {
+  margin: 0 1em;
+}
