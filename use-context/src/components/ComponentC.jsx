@@ -11,6 +11,7 @@ function ComponentC() {
               {(value2) => {
                 return (
                   <div>
+                    <h4>Consumer:</h4>
                     <p>UserContext value: {value1}</p>
                     <p>UserContext2 value: {value2}</p>
                   </div>
