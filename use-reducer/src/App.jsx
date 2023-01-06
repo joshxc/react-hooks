@@ -1,7 +1,9 @@
 import React from 'react';
 // import SimpleReducerCounter from './components/SimpleReducerCounter';
 // import ComplexReducerCounter from './components/ComplexReducerCounter';
-import MultipleReducers from './components/MultipleReducers';
+// import MultipleReducers from './components/MultipleReducers';
+import DataFetching1 from './components/DataFetching1';
+
 import './App.css';
 
 function App() {
@@ -9,7 +11,8 @@ function App() {
     <div className="container">
       {/* <SimpleReducerCounter /> */}
       {/* <ComplexReducerCounter /> */}
-      <MultipleReducers />
+      {/* <MultipleReducers /> */}
+      <DataFetching1 />
     </div>
   );
 }
