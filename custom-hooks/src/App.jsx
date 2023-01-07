@@ -1,12 +1,12 @@
 import './App.css';
-import DocTitle from './components/DocTitle';
-import DocTitle2 from './components/DocTitle2';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <DocTitle />
-      <DocTitle2 />
+      <Counter />
+      <Counter initialValue={10} stepValue={10} />
+      <Counter initialValue={100} stepValue={100} />
     </div>
   );
 }
