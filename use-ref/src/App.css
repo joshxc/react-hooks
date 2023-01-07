@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgb(160, 160, 160);
+  margin: 2em;
+  padding: 1em;
+}
+
+.container button {
+  margin: 0 1em;
+}
+
+input {
+  max-width: 25%;
+  text-align: center;
+  margin-right: 1em;
+}
+
+li > button {
+  padding: 1px 7px;
+  margin-left: 3em;
+
+  background-color: red;
+}
